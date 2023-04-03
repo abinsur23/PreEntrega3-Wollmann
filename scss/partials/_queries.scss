@@ -1,0 +1,49 @@
+/*media queries*/
+
+
+@media(max-width:770px){
+    .off li{
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+    }
+    .navbar{
+        font-size: 25px;
+    }
+    .navbar ul li{
+        display:inline;    
+        padding: 5px; 
+
+    }
+
+    .bienvenida h2{
+
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .bienvenida p{
+        font-size: 20px;
+        padding:0 15% 5%;
+    }
+
+    .regiones h2{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .lista-regiones{
+        padding: 0%;
+        grid-template-columns: 100%;
+        grid-template-rows: 250px 250px 250px 250px;
+        gap: 10px;
+        padding-bottom: 10px;
+        font-size: 35px;
+        background-size: cover;
+    }
+
+    .descripcion{
+        display: block;
+    }
+}
+
